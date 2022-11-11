@@ -1,0 +1,16 @@
+/* 中文設定(google font) */
+@font-face {
+  font-family: custom-fonts;
+  src: local("Noto Sans TC"), url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap') format("embedded-opentype");
+  unicode-range: U+4E00-9FFF;
+}
+/* 英文設定(本地端文字檔) */
+@font-face {
+  font-family: custom-fonts;
+  src: local("PPMonumentExtended-Regular"), url(./fonts/PPMonumentExtended-Regular.otf) format("opentype");
+  unicode-range: U+00-024F;
+}
+/* 中英文@font-face中的font-family自訂名加入body的 */
+body {
+  font-family: custom-fonts;
+}
